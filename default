@@ -117,7 +117,7 @@ server {
         server_name reactvn.net;
         passenger_enabled on;
         rails_env    production;
-        root         /srv/site/reactvn/reactvn_net;
+        root         /srv/sites/reactvn/reactvn_net;
 	index index.php index.html index.htm index.nginx-debian.html;
 
         # redirect server error pages to the static page /50x.html
